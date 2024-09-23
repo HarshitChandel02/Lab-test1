@@ -1,0 +1,14 @@
+import numpy as np
+import scipy.signal import butter , lfilter
+vehicle_count=np.array([[20,30,21,34,43,23],[17,20,45,13,18,32],[22,10,8,19,35,15]])
+vehicle_count
+
+vehicle_average=vehicle_count.mean(axis=1)
+
+vehicle_average
+
+def heavy_data(vehicle_count):
+    if(vehicle_count>120):
+        print(heavy_traffic)
+        
+        
